@@ -52,14 +52,14 @@
       <div class="container my-4">
         <h2>Contact Us</h2>
      
-      <form>
+      <form  action="https://formspree.io/f/mjvnwzng" method="POST">
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Select You Query</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select name="Query" class="form-control" id="exampleFormControlSelect1">
             <option>Select</option>
             <option>1.Web</option>
             <option>2.Tech Stack</option>
@@ -71,7 +71,7 @@
             <div class="col-sm-2">Are You a Member?</div>
             <div class="col-sm-10">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <input name="Member" class="form-check-input" type="checkbox" id="gridCheck1">
                 <label class="form-check-label" for="gridCheck1">
                   Yes
                 </label>
@@ -83,7 +83,7 @@
                 <div class="col-sm-2">Are You a Coder?</div>
                 <div class="col-sm-10">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                    <input name="Coder" class="form-check-input" type="checkbox" id="gridCheck2">
                     <label class="form-check-label" for="gridCheck2">
                       Yes
                     </label>
@@ -95,7 +95,7 @@
                     <div class="col-sm-2">Are You a Professor?</div>
                     <div class="col-sm-10">
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck3">
+                        <input name="Professor" class="form-check-input" type="checkbox" id="gridCheck3">
                         <label class="form-check-label" for="gridCheck3">
                           Yes
                         </label>
@@ -105,7 +105,7 @@
       
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Tell us about yourselfs</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea name="Self Def" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <button class="btn btn-primary">Submit</button>
       </form>
@@ -113,20 +113,19 @@
 
     <div class="form-group">
       <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
-      <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+      <textarea name="Concern" class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
     </div>
     <button class="btn btn-primary">Submit</button>
   </form>
 </div>
 </div>
-      
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2024-2025 rCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        <div class="container-fluid bg-primary text-white p-2 text-center fs-4"><h4> Developed By Rahul Joglekar </h4></div>
-      </footer>
-    
 
+<footer class="container">
+  <p class="float-right"><a href="#">Back to top</a></p>
+  <p>© 2024-2025 rCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  <div class="container-fluid bg-primary text-white p-2 text-center fs-4" ><h4> Developed By Rahul Joglekar </h4></div>
+</footer>    
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
